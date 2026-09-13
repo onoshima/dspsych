@@ -1,16 +1,44 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "dspsych",
+    "objectID": "install.html",
+    "href": "install.html",
+    "title": "RとRStudioのインストール",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2\n\n\nサンプルデータをダウンロード\nサンプルのコードをダウンロード"
+    "text": "このページではRとRStudioのインストール方法について説明します。 以下のスクリーンショットは2026年9月にR 4.6.1，RStudio 2026.09.0をダウンロードしたときのものです。ダウンロードするバージョンによっては表記や表示が異なるかもしれませんが，適宜読み替えてください。\nまた，本ページの最後ではRStudioのおすすめの設定についても紹介します。"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "install.html#rのインストール",
+    "href": "install.html#rのインストール",
+    "title": "RとRStudioのインストール",
+    "section": "Rのインストール",
+    "text": "Rのインストール\nRはCRAN（Comprehensive R Archive Network）と呼ばれるページからダウンロードできます。 CRANとは，R本体をダウンロードするためのウェブサイトで，世界中に同じコンテンツが置かれたミラーサイトがあります。日本では山形大学にミラーがあります。以下のリンクからアクセスしてください。\n\n山形大学ミラー\n\nアクセスすると「Download and Install R」というセクションが上部にあるはずなので，自分のOSに合わせたリンクを選んでください。\n\n\n\nOSごとにダウンロードリンクが異なるので注意\n\n\n\nWindowsの場合\n以下ではWindowsの場合を説明します。Macの人はMacの場合までスキップしてください。\nWindowsでは，はじめの画面でbaseを選びます。\n\n\n\n初回の場合はbaseを選ぶ\n\n\n続いて一番上にある「Download R-4.6.1 for Windows」をクリックするとダウンロードが始まります。 Windowsやブラウザの設定を変えていなければ「ダウンロード」フォルダに保存されるはずです（多分）。\n\n\n\n最新版のRをダウンロード\n\n\n自分のPCの「ダウンロード」フォルダ内にある「R-4.6.1-win.exe」のファイルをダブルクリックするとインストーラーが起動して，PCへのインストールが始まります。「このアプリがデバイスに変更を加えることを許可しますか？」と聞かれたら「はい」を押してください。\nセットアップに用いる言語の選択に続いて，ライセンスの情報，インストール先の選択など様々な画面が出てきますが，特にこだわりがなければ，全て既定の設定のまま「次へ」で大丈夫です。\n\n\n\nRのインストーラーの画面の1つ\n\n\nインストールを終えると，PCのアプリ一覧に加わっているはずです。タスクバー（デスクトップの下部にあるもの）の検索窓にRと打つと，おそらくRのアイコンが表示されるはずなので，クリックして起動できるか確認してみましょう。\n\n\nMacの場合\n以下ではMacOSの場合を説明します。Windowsの方はWindowsの場合を参照してください。\nMacの場合は，AppleシリコンかIntelのCPUを搭載しているかでインストーラーが変わります。2022年以降に発売されたMacはおおむねAppleシリコンが使われているので，最近Macを買った人はAppleシリコンの方を選べばOKです。Appleメニューの「このMacについて」からチップやCPUの種類が確認できます。\n該当する方の「R-4.6.1-xxx.pkg」をクリックするとダウンロードが始まります。ダウンロードされたファイルは，PCやブラウザの設定を変えていなければ「ダウンロード」フォルダに保存されます。\n\n\n\nアーキテクチャによってインストーラーが違うので注意\n\n\n自分のPCに保存されたファイルをダブルクリックすると，インストーラーが起動します。 特にこだわりがなければ，何も変更せずに「続ける」と「同意する」をクリックして進めていくとRがPCに無事にインストールされるはずです。\n\n\n\nMacのインストーラー\n\n\nインストールされると「アプリケーション」フォルダの一覧の中にRが加わっているはずなので，起動できるか確認してみましょう。"
+  },
+  {
+    "objectID": "install.html#rstudioのインストール",
+    "href": "install.html#rstudioのインストール",
+    "title": "RとRStudioのインストール",
+    "section": "RStudioのインストール",
+    "text": "RStudioのインストール\nRStudioはPosit社（旧RStudio社）のページからダウンロードできます。\nRStudioのダウンロードページ\nアクセスすると，OSごとにダウンロード先のリンクがあるので自分のPCに対応するものを選んでください1。Windows 11は2つありますが，Zipで圧縮されているかどうかなのでこだわりがなければ上の方を選んで大丈夫です。クリックすると，インストーラーが「ダウンロード」フォルダに保存されます。\n\n\n\n自分のOSに対応したRStudioのダウンロードリンクを選ぶ\n\n\n\nWindowsの場合\nインストーラをダブルクリックすると，セットアップの手続きが始まります。 ここでも，こだわりがなければ初期設定のまま「次へ」を押していってもらえれば大丈夫です。\n\n\n\nRStudioのセットアップ\n\n\n無事に最後まで進むとコンピュータのアプリ一覧に加わっているはずですので，起動できるか確認してみましょう。\n\n\nMacの場合\nインストーラーをダブルクリックするとマウントされますので，RStudioのアイコンをドラッグ&ドロップして「Applications」のフォルダに入れてください。\n\n\n\nRStudioのインストール（Mac）\n\n\nRのときと同様に「アプリケーション」フォルダの中にRStudioが加わっているはずですので，起動できるか確認してみましょう。"
+  },
+  {
+    "objectID": "install.html#rstudioの設定",
+    "href": "install.html#rstudioの設定",
+    "title": "RとRStudioのインストール",
+    "section": "RStudioの設定",
+    "text": "RStudioの設定\nRStudioでは，メニューバーのTools &gt; Global Optionsから，様々な設定を変更することができます。 ここでは，RStudioでデータ分析を進めていくにあたって，いくつかおすすめの設定を紹介しておきます。\n\n起動時に前回の作業内容を引き継がない\nWorkspaceの「Restore .RData into workspace at startup:」のチェックマークを外します。 また，「Save workspace to .RData on exit:」を「Never」に変更します。\nこうすることで，毎回クリーンな状態のRから始めることができます。\n\n\n\nGeneral &gt; Basicのタブの設定\n\n\n\n\nグラフィックスデバイスをAGGに変更する\nRの標準の描画エンジンだと，日本語を含むグラフを作成した際に文字がうまく表示されないことがあります（特にMac）。 グラフィックスデバイスをAGGという高性能なものに変更しておくと，文字化け問題にあまり悩まされなくなります。\n\n\n\nグラフィックスデバイスをAGGに変更\n\n\n\n\nコード補完表示のための文字数を少なくする\nRStudioでは変数や関数の名前を途中まで入力すると，その続きの候補が表示され，その状態でTabキーを押すことで変数名や関数名の続きが入力されます。 初期設定では3文字まで入力した時点でコードの候補が表示されますが，キーボード入力に慣れていない人は，これを2文字に変更することをおすすめしています。Code &gt; Completionのタブの下の方にある「Show completions after characters entered:」の箇所で設定できます。\n\n\n\nコード補完が表示される文字数の変更"
+  },
+  {
+    "objectID": "install.html#footnotes",
+    "href": "install.html#footnotes",
+    "title": "RとRStudioのインストール",
+    "section": "脚注",
+    "text": "脚注\n\n\nもし，Macで使用しているOSが古くて最新版のRStudioが対応していない場合には過去のRStudioのダウンロードページから，古いバージョンのRStudioをダウンロードすることもできます。↩︎"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "データサイエンス入門 サポートページ",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "RとRtudioのインストール: RとRStudioのインストール方法を説明しています。"
   }
 ]

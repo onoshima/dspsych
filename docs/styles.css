@@ -1,1 +1,9 @@
 /* css styles */
+body {
+    font-family: "Source Sans Pro", "Helvetica Neue", Arial, "BIZ UDGothic", sans-serif;
+}
+
+h1, h2, h3, .title {
+  font-family: "Source Sans Pro", "Hiragino Sans", "Noto Sans JP", sans-serif;
+  font-weight: 700;
+}
